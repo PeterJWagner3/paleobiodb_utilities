@@ -53,5 +53,11 @@ If you would like to add your script to this list, please refer to [submitting a
 **Author**: Matthew Clapham  
 **Code**: https://github.com/mclapham/PBDB-R-scripts
 
+#### PaleoDB Curation Scripts
+**Description**:  Various R-scripts intended to identify species needing taxonomic information, provide the most recent taxonomic information for species with taxonomic information, and to aid in standardizing stratigraphic nomenclature, ages, etc.   
+**Language**: R  
+**Author**: Peter Wagner  
+**Code**: https://github.com/PeterJWagner3/Curation
+
 
 
