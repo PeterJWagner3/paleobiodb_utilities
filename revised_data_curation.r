@@ -63,6 +63,9 @@ if (save_files)	{
 
 	output3 <- paste(timespan,"_",taxa,"_Entered_Species",output_type,sep="")
 	write.table(entered_species,file=output3,sep = sepr,row.names = FALSE)
+
+	output4 <- paste(timespan,"_",taxa,"_Occurrences",output_type,sep="")
+	write.table(species_finds,file=output4,sep = sepr,row.names = FALSE)
 	}
 
 output <- list(unentered_species,unentered_species_sources,entered_species)
@@ -273,6 +276,9 @@ if (save_files)	{
 
 	output3 <- paste(timespan,"_",system,"_Strata_Entered_as_Formations_and_Members",output_type,sep="")
 	write.table(confused_rocks,file=output3,sep = sepr,row.names = FALSE,col.names=TRUE)
+	
+	output4 <- paste(timespan,"_",system,"_Relevant_Collections",output_type,sep="")
+	write.table(relevant_collections,file=output4,sep = sepr,row.names = FALSE,col.names=TRUE)
 	}
 output <- list(output1,output2,output3)
 names(output) <- c("Stage_Assignments","Zone Assignments","Inconsistent_Ranks")

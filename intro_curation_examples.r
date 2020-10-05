@@ -11,9 +11,9 @@
 ###			3. A file giving the sources for the species that do not have authority
 ###				data.
 #### Note: once you have done this, you can use a later oldest_entry.
-taxa <- "Graptolithina"
-onset <- "Ordovician"
-end <- "Ordovician"
+taxa <- "Strophomenoidea"
+onset <- "Cambrian"
+end <- "Silurian"
 oldest_entry <- "1998-11-19"
 # use today's date
 latest_entry <- strsplit(as.character(Sys.time())," ")[[1]][1]
